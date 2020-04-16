@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+.container{
+    width: 50%;
+    box-sizing: border-box;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(231, 229, 226);
+    margin-top: 12px;
+}
+
+.c2{
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
+.c2 h3{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.inpt{
+    border: 2px solid black;
+    border-radius: 50px;
+    color: rgb(231, 223, 223);
+    background-color: rgb(34, 35, 37);
+    font-size: 20px;
+    padding: 12px 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.submit{
+    border: 2px solid black;
+    border-radius: 50px;
+    color: rgb(231, 223, 223);
+    background-color: rgb(34, 35, 37);
+    font-size: 20px;
+    padding: 12px 20px;
+    margin-left: 240px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.submit:hover{
+    color: rgb(247, 191, 9);
+    font-size: 20.3px;
+    transition: 0.5s linear;
+}
+.nav{
+    background-color: rgb(22, 19, 19);
+    width: 100%;
+    height: 70px;
+}
+.nav ul{
+    overflow: auto;
+    margin-left: 8px;
+}
+.nav li {
+    float: right;
+    list-style: none;
+    margin-left: 12px;
+    margin-right: 29px;
+    margin-top: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    padding: 5px 10px;
+    background-color: rgb(15, 136, 250);
+    border-radius: 20px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.nav li a:hover{
+    color: white;
+    transition: 0.7s linear;
+}
+.background-image{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    float: left;
+    width: 50%;
+    margin-left: 35px;
+}
+.footer{
+    bottom: 0px;
+    margin-top: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+}
+.footer-list{
+    float: left;
+    list-style: none;
+    width: 90%;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-left: 20px;
+    color: rgb(233, 227, 227);
+}
+.footer-list a{
+    text-decoration: none;
+    color: honeydew;
+}
+.footer-list a:hover{
+    text-decoration: none;
+    color: rgb(15, 136, 250);
+    transition: 0.5s linear;
+}
+.inner-footer{
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    height: 20px;
+    position: relative;
+    margin-bottom: 60px;
+}
+.company-address{
+    color: rgb(233, 227, 227);
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+#txtarea{
+    margin-left: 110px;
+    margin-top: 15px;
+    width: 60%;
+    background-color: rgb(80, 78, 78);
+    color: honeydew;
+    border-radius: 9px;
+    border: black solid 3.2px;
+}
+.outputtxt{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+input[type = "text"]{
+    display: block;
+    margin: 0 auto;
+}
+input[type = "email"]{
+    display: block;
+    margin: 0 auto;
+}
+button[type = "button"]{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;        
+}
